@@ -16,7 +16,7 @@ const Champions = () => {
       {Object.keys(champion).map((item) => (
         <CardChampion key={champion[item].name}>
           <p>{champion[item].name}</p>
-          <p>{champion[item].title}</p>
+          <p>{champion[item].title.toLowerCase()}</p>
           <p>{champion[item].partype}</p>
         </CardChampion>
       ))}
