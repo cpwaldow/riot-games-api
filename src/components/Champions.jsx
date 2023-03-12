@@ -10,8 +10,7 @@ const Champions = () => {
   }, []);
 
   if (!champion) return null;
-  console.log(champion);
-  // console.log(Object.keys(champion));
+
   return (
     <Container>
       {Object.keys(champion).map((item) => (
